@@ -42,8 +42,8 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
 
 /* ====================================================
 
-                         BODY
-                         SEC1
+                        BODY
+                        SEC1
 
 ==================================================== */
 .sec1 {
@@ -67,7 +67,8 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
 
 
 .sec1 h1,
-.span {
+.span,
+.copyr {
     width: 100%;
     font-size: 14rem;
     color: #042A5A;
@@ -75,8 +76,17 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
     /* display: flex; */
     /* flex-wrap: wrap; */
     justify-self: center;
-    border-bottom: 2px solid #042A5A;
     letter-spacing: 0.2rem;
+}
+
+.sec1 h1,
+.span {
+    border-bottom: 0.1rem solid #042A5A;
+
+}
+
+.copyr {
+    letter-spacing: -2rem;
 }
 
 .sec1 .span {
@@ -101,7 +111,7 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
 
 /* ====================================================
 
-                         SEC2
+                        SEC2
 
 ==================================================== */
 .sec2 {
@@ -245,6 +255,7 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
     height: max-content;
     /* width: 100%; */
     display: flex;
+    padding: 1rem 5rem;
     align-self: flex-end;
 }
 
@@ -392,13 +403,15 @@ footer {
 /*     padding: 6rem 8rem 6rem 8rem;
  */
 
-footer .num {
-    margin: 6rem 8rem;
+footer .footernum {
+    padding: 6rem 7rem;
 }
 
 footer h1 {
     font-size: 13rem;
     font-weight: 50;
+    width: 20rem;
+    
 }
 
 footer .footerdisc {
@@ -427,6 +440,9 @@ footer ul li a {
     font-family: OpenSans;
     color: #388883;
     font-size: 1.5rem;
+}
+footer ul li a:hover{
+    text-decoration: underline;
 }
 
 @media only screen and (min-width: 1450px) {
