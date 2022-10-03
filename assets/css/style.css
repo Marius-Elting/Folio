@@ -34,7 +34,7 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
 }
 
 .header h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: OpenSans;
     display: flex;
     color: #042A5A;
@@ -51,7 +51,7 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
     /* justify-content: center; */
     flex-wrap: wrap;
     width: 100%;
-    padding: 2rem 10rem 2rem 10rem;
+    padding: 5rem 10rem 2rem 10rem;
     text-align: center;
     align-items: center;
     flex-direction: column;
@@ -62,6 +62,7 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
     display: flex;
     align-items: center;
     word-wrap: break-word;
+
 }
 
 
@@ -70,7 +71,7 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
 .span,
 .copyr {
     width: 100%;
-    font-size: 14rem;
+    font-size: 16rem;
     color: #042A5A;
     font-weight: 100;
     /* display: flex; */
@@ -79,23 +80,21 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
     letter-spacing: 0.2rem;
 }
 
-.sec1 h1,
-.span {
-    border-bottom: 0.1rem solid #042A5A;
+.sec1 .span {
+    border-bottom: 0.2rem solid #042A5A;
+    border-top: 0.2rem solid #042A5A;
+    width: 100%;
+    display: block;
 
 }
 
 .copyr {
-    letter-spacing: -2rem;
-}
-
-.sec1 .span {
-    width: 108rem;
+    letter-spacing: -0.9rem;
 }
 
 .sec1 div {
     margin-top: 3rem;
-    width: 20rem;
+    width: auto;
     justify-self: center;
 }
 
@@ -107,6 +106,7 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
     font-size: 1.6rem;
     color: #042A5A;
     margin-bottom: 10rem;
+    text-align: left;
 }
 
 /* ====================================================
@@ -118,13 +118,13 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
     display: flex;
     height: auto;
     width: 100%;
-    padding: 6rem 5rem 6rem 0rem;
+    padding: 0rem 5rem 6rem 0rem;
     background-color: #F4C4C4;
     flex-wrap: wrap;
 }
 
 .sec2 .num {
-    margin: 1.5rem 10rem 4rem 10rem;
+    padding: 6rem 8rem 6rem 8rem;
     height: max-content;
     width: 100%;
 }
@@ -163,24 +163,24 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
 }
 
 .sec2 .infool {
-    width: 33rem;
+    width: 35rem;
     flex-wrap: wrap;
     display: flex;
     font-family: OpenSans;
     list-style-type: decimal;
-
-
 }
 
-.sec2 .infool .integrity {
+.sec2 .infool li{
     border-bottom: 1px solid #282B29;
-    border-top: 1px solid #282B29;
-    height: 5rem;
+    height: 7.5rem;
     align-items: center;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 3rem 0rem 3rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+.sec2 .infool .integrity {
+    border-top: 1px solid #282B29;
 }
 
 .sec2 .infool .integrity .p1::before {
@@ -198,27 +198,6 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
     margin-right: 1.5rem;
 }
 
-.sec2 .infool .understanding {
-    border-bottom: 1px solid #282B29;
-    height: 5rem;
-    align-items: center;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 3rem 0rem 3rem 0rem;
-}
-
-
-.sec2 .infool .performance {
-    border-bottom: 1px solid #282B29;
-    height: 5rem;
-    align-items: center;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 3rem 0rem 3rem 0rem;
-
-}
 
 .sec2 .infool li p {
     font-family: OpenSans;
@@ -237,7 +216,7 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
 
 /* ====================================================
 
-                         SEC3
+                        SEC3
 
 ==================================================== */
 
@@ -251,11 +230,12 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
 }
 
 .sec3 .num {
-    margin: 10rem 0rem 10rem 10rem;
+    padding: 6rem 8rem 6rem 8rem;
+    /* margin: 10rem 0rem 10rem 10rem;
     height: max-content;
-    /* width: 100%; */
+    /* width: 100%; 
     display: flex;
-    padding: 1rem 5rem;
+    padding: 1rem 5rem; */
     align-self: flex-end;
 }
 
@@ -274,7 +254,7 @@ Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
 }
 
 .sec3 .pics {
-    padding: 6rem 8rem 6rem 8rem;
+    padding: 6rem 8rem 20rem 8rem;
     display: flex;
     gap: 20rem;
     flex-direction: column;
@@ -388,7 +368,7 @@ BOR
 
 /* ====================================================
 
-                         FOOTER
+                        FOOTER
 
 ==================================================== */
 
@@ -397,11 +377,16 @@ footer {
     color: #388883;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
 }
 
-/*     padding: 6rem 8rem 6rem 8rem;
- */
+footer article {
+    background-color: #D2D2D2;
+    color: #388883;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+}
 
 footer .footernum {
     padding: 6rem 7rem;
@@ -411,7 +396,7 @@ footer h1 {
     font-size: 13rem;
     font-weight: 50;
     width: 20rem;
-    
+
 }
 
 footer .footerdisc {
@@ -441,9 +426,12 @@ footer ul li a {
     color: #388883;
     font-size: 1.5rem;
 }
-footer ul li a:hover{
+
+footer ul li a:hover {
     text-decoration: underline;
 }
+
+/* Damit es auch auf großen Monitoren gu aussieht :) */
 
 @media only screen and (min-width: 1450px) {
     * {
@@ -456,3 +444,29 @@ footer ul li a:hover{
         font-size: 15px;
     }
 }
+
+
+
+/* .test h2 {
+    font-size: 6rem;
+    font-weight: 50;
+    letter-spacing: 0.1rem;
+    width: 25rem;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 40rem;
+
+}
+
+.testimg {
+    background: url("../img/bg-marconatto-1.jpg");
+    width: 66rem;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+} */
